@@ -4,6 +4,15 @@
 > **Problem Statement:** Hostel Mess Feedback
 > **Target Persona:** Hostel student in the food queue (giving feedback) and the mess manager (reading it)
 
+## Live Demo
+
+**https://messmate-6xqv.onrender.com**
+
+- Student rating: [/#/rate](https://messmate-6xqv.onrender.com/#/rate)
+- Manager dashboard: [/#/manager](https://messmate-6xqv.onrender.com/#/manager) (demo PIN **1234**)
+
+> Hosted on Render's free plan. If the page is slow to open, the server is waking from sleep and needs about 30 to 60 seconds. Demo data is reseeded whenever it restarts.
+
 ## Problem & Solution
 
 Mess feedback usually fails in two ways. Long survey forms get skipped by students, and raw WhatsApp complaints are too chaotic and unverified for a manager to act on.
@@ -61,8 +70,8 @@ There are **no npm dependencies**, so `npm install` is not needed.
 
 ```bash
 # 1. Clone repository
-git clone <REPO_URL>
-cd <DIRECTORY>
+git clone https://github.com/Prashamjain24/messmate.git
+cd messmate
 
 # 2. Environment variables (optional — the app runs without a key)
 cp .env.example .env
