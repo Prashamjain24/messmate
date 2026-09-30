@@ -1,0 +1,13 @@
+{
+  "name": "messmate",
+  "version": "1.1.0",
+  "description": "Hostel mess feedback in 10 seconds, with an AI that understands Hinglish comments and briefs the manager",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node server.js --reset",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

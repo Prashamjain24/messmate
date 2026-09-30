@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>MessMate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">🍽</div>
+      <div>
+        <h1 style="font-size: 17px">MessMate</h1>
+        <div class="sm muted">Block-C Dining Hall</div>
+      </div>
+      <div class="live" id="live"></div>
+      <button id="dk" aria-label="Toggle dark mode" style="border: 0; background: none; font-size: 20px; cursor: pointer">
+        🌓
+      </button>
+    </header>
+    <main id="app"></main>
+    <div class="cta hide" id="cta"><button class="btn" id="submit" disabled>Submit feedback</button></div>
+    <nav>
+      <a href="#/" id="n0"><span>🏠</span>Home</a><a href="#/rate" id="n1"><span>📝</span>Rate meal</a
+      ><a href="#/manager" id="n2"><span>📊</span>Manager</a>
+    </nav>
+    <script src="/app.js"></script>
+  </body>
+</html>

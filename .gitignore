@@ -1,0 +1,4 @@
+.env
+messmate.db
+data.json
+node_modules
