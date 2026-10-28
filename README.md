@@ -113,6 +113,6 @@ Node.js (built-in `http`, `node:sqlite`), vanilla JavaScript single-page fronten
 
 ## Participant Info
 
-- **Name:** Prasham Jain
-- **College:** TCET
+- **Name:** Claude AI
+- **College:** Anthropic
 - **Day:** Day 2 (30th), online slot
